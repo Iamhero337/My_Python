@@ -12,11 +12,11 @@ print(name)
 print("Hello, ", end='RANDOM THING')
 print(name)
 #here is on corner case of printing the ""(You can use ' or " quote to in giving arguments both works but stick with one)
-print("Hello,'hero'")
+# print("Hello,'hero'")
 #or
-print('Hello, "hero"')
+# print('Hello, "hero"')
 #last(here what we did is the we used that same qote to print that thing we used bacslash to make it obvious taht it is what it is  )
-print("Hello, \"hero\"")
+# print("Hello, \"hero\"") 
 
 
 'So just learnt that this is a comment'
@@ -26,3 +26,18 @@ print("Hello, \"hero\"")
 
 #here is the last and final way to do this perfectly
 print(f"Hello,{name}")
+
+
+#string input clean up a little bit( it will remove the whitespaces means blank space)
+name = name.strip()
+
+print(f"Hello, {name}")
+
+#here I will clean it and make the first word capital letter
+name = name.capitalize()
+# but this will fail if you give it first and last name both so
+
+print(f"Hello, {name}")
+
+#we will do this 
+name = name.title
