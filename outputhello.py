@@ -40,4 +40,14 @@ name = name.capitalize()
 print(f"Hello, {name}")
 
 #we will do this 
-name = name.title
+name = name.title()
+
+print(f"Hello, {name}")
+
+
+#Lets wrap things up (Everything at one place)
+
+name = input("What is your name: ").strip().title()
+
+print(f"Hello, what's up {name}")
+
